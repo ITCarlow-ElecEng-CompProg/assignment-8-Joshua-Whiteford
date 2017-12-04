@@ -26,7 +26,7 @@ int main()
     char input;
 
     /**< Introducing the User to the program */
-    cout << "\t\tCoordinate Conversion!" << endl << "This application will convert from polar to Cartesian and back!" << endl;
+    cout << "\t\tOperational Amplifiers!" << endl << endl;
 
 
     /**< Sending the program into a loop until the user enters some value */
@@ -103,6 +103,9 @@ void inverting()
 
     cout << "Enter a Value for Vee:"<< endl;
     cin >> Vee;
+
+    cout << "Enter a Value for Vin:"<< endl;
+    cin >> Vin;
 
     /**< Asking the User to enter in positive values for Rin & Rf and looping until positive values are entered */
     if (Rin == 0)
